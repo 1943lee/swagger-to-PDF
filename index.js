@@ -289,7 +289,7 @@ function convertToHTML(swaggerJSON){
     // paths
     var pathCounter=0;
     main3Counter = swaggerContentCheck(swaggerJSON, 'paths');
-    sub3Counter=main3Counter;
+    sub3Counter=1;
         
     html += '<h2>'+main3Counter+'. Paths</h2>';
 
