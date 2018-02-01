@@ -3,7 +3,7 @@
 Creates a PDF from a Swagger JSON file.
 
 ## How to use
-    npm install
+    npm install phantom-html2pdf
     node index.js "path to your Swagger.json file"
 
 Also supports combining several Swagger JSON files into 1 output PDF:
