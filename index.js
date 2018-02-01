@@ -15,13 +15,13 @@ jsonFileList=process.argv.slice(2);
 console.dir(jsonFileList);
 var splitJSONFiles= jsonFileList[0].split(',');
 var config = {};
-
+/*
 try{
 	config = JSON.parse(fs.readFileSync(".config"));
 	config.html = fileName;
 } catch (err){
 	console.log(err);
-}
+}*/
 config.html = fileName;
 config.css = "./normalize.css";
 
